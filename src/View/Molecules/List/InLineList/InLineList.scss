@@ -1,0 +1,11 @@
+.main-list {
+  .list-items a {
+    text-decoration: none;
+    font-size: medium;
+    margin-right: 10px;
+    color: white;
+    &:hover {
+      color: #ff00ff;
+    }
+  }
+}

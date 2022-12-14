@@ -1,0 +1,33 @@
+.main-card {
+  border-radius: 15px;
+  margin: 20px;
+  width: 18rem;
+  & img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 250px;
+  }
+  .card-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    .product-info {
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+    }
+    .category {
+      margin-bottom: auto;
+    }
+    .cart-buttons {
+      flex-grow: 10;
+      display: flex;
+      justify-content: flex-end;
+
+      & button {
+        margin-left: 3px;
+        margin-top: auto;
+      }
+    }
+  }
+}
